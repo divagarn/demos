@@ -38,3 +38,18 @@ if __name__ == '__main__':
         except rospy.ROSInterruptException:
                 pass
 
+
+#import rospy
+#from std_msgs.msg import String
+
+#def param_callback(param_value):
+#    if param_value == "tracking_failure":
+#        person_lost_pub.publish("Person lost!")
+
+#rospy.init_node('tracking_monitor')
+
+#param_sub = rospy.Subscriber('/your_parameter_topic', String, param_callback)
+
+#person_lost_pub = rospy.Publisher('/person_position', String, queue_size=10)
+
+#rospy.spin()
